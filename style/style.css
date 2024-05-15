@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+}
+body{
+    background: url(../img/golden-line-wall-shoes-and-bags-clothing-simple-texture-powerpoint-background_febbe6cdb0__960_540.avif);
+    background-size: 100%;
+}
+header{
+    position: sticky;
+    top:0 ; 
+}
+header h2{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.bienvenidos{
+    background-color: black; 
+    
+}
+/*css index*/
+
+.titulo-index{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 4px;
+    margin-top: 20px;
+}
+ img{
+    width: 100%;
+}
+.productos{
+    padding: 10px;
+    width: 900px;
+    box-shadow: 0 0 20px rgba(163, 163, 163, 0.685);
+    border-radius: 10px;
+    background-color:#E6E6EB;
+    margin: 10px;
+    margin-top: 100px;
+    cursor: default;
+    border-bottom: 2px solid black;
+}
+.container{
+    margin-bottom: 200px;
+}
+.productos h1{
+    font-size: 20px;
+}
+.productos h2{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+}
+button{
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+footer{
+    height: 200px;
+    background-color: #cecbcb;
+    padding-top: 50px;
+    display:grid;
+    margin-top: 200px;
+    
+}
+footer p{
+    text-align: center;
+}
+.ig{
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(219, 149, 44);
+}
+.face{
+    display: block;
+    margin-left: 50px;
+}
+/*css sobre nosotros*/
+.sobre-nosotros{
+    background-color: rgb(250, 247, 247);
+    width: 50%;
+    margin: auto;
+    border-radius:0 0 20px 20px;
+    box-shadow: 0 0 10px rgba(126, 126, 126, 0.719);
+    border-top: solid rgb(116, 115, 115) 5px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.sobre-nosotros-titulo{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;  
+}
+
+.sobre-nosotros p{
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+/** css de productos**/
+.titulo-productos{
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows:500px 500px 500px;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+.productosgrid{
+    
+    box-shadow: 0 0 20px rgba(146, 145, 145, 0.603);
+    border-radius: 10px;
+    background-color:#E6E6EB;
+    padding: 15px;
+    cursor: default;
+    margin: 30px;
+    border-bottom: 2px solid black;
+}
+
+.productosgrid img{
+    
+    width: 100%;
+    
+}
+.productosgrid h1{
+    font-size: 15px;
+}
+.productosgrid h2{
+    font-size: 15px;
+}
+.productosgrid button{
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+/*css tallas */
+.h1-talles{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 70px;
+}
+.tallas{
+    display: grid;
+    grid-template-columns: 225px 225px 225px 225px;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    justify-content: center;
+}
+.tallas2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    justify-content: center;
+}
+
+.tallas div, .tallas2 div{
+    text-align: center;
+    
+    
+}
+.g1{background-color:#F6F4F3;}
+.g2{background-color: #ffffff;}
+.titulos-talles, .p-talles{
+    margin-left: 25%;
+    margin-bottom: 100px;
+}
+.titulos-talles1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 25%;
+}
+/*css local*/
+.local{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+.mapa {
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+
+.localp{
+    font-size: 20px;
+   padding: 5PX;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+    /*index*/
+    .productos{
+        padding: 10px;
+        width: 100%;
+        box-shadow: 0 0 20px rgba(163, 163, 163, 0.685);
+        border-radius: 10px;
+        background-color:#E6E6EB;
+        margin: 10px;
+        margin-top: 10px;
+        cursor: default;
+        
+    }
+    .container{
+        margin-bottom: 20px;
+        
+    }
+    .productos h1{
+        font-size: 20px;
+    }
+    .productos h2{
+        font-size: 20px;
+    }
+    .container{
+        display: block;
+    }
+    button{
+        font-size: 25px;
+        border: 1px solid black;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    /*productos*/
+    .grid {
+   grid-template-columns: 1fr ;
+   grid-template-rows: repeat(7, 1fr );
+   padding: 50px;
+   
+ 
+        
+    }
+   
+    /*talles*/
+    .h1-talles{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    .tallas{
+        display: grid;
+        grid-template-columns: 90px 90px 90px 90px ;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        justify-content: center;
+    }
+    .tallas2{
+        display: grid;
+        grid-template-columns: 120px 120px 120px ;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        justify-content: center;
+    }
+    .titulos-talles, .p-talles{
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    .titulos-talles1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 15%;
+    }
+    /*sobre nos*/
+    .sobre-nosotros{
+        background-color: rgb(250, 247, 247);
+        width: 60%;
+        margin: auto;
+        border-radius:0 0 20px 20px;
+        box-shadow: 0 0 10px rgba(126, 126, 126, 0.719);
+        border-top: solid rgb(116, 115, 115) 5px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .sobre-nosotros-titulo{
+        text-align: center;
+        padding-top: 80px;
+        font-size: 30px;  
+    }
+    
+    .sobre-nosotros p{
+        text-align: center;
+        margin: 30px;
+        margin-top: 100px;
+        padding-bottom: 100px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+
+}
+
+
